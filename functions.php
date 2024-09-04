@@ -7,7 +7,7 @@ function storefront_child_enqueue_styles() {
 }
 add_action('wp_enqueue_scripts', 'storefront_child_enqueue_styles');
 
-// Include Custom Post Type
+// Include Class Cities
 require get_stylesheet_directory() . '/includes/class-cities.php';
 
 // Include City Temperature Widget
